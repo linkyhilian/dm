@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>HotWeeks | Distrito Moda</title>
+  <!-- boostrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/simple-sidebar.css">
+  <!-- boostrap -->
+  <!-- icono -->
+  <link rel="shortcut icon" href="img/favicon.webp" type="image/png">
+  <!-- icono -->
+  <!-- Scroll -->
+  <script src="js/smooth-scroll.min.js"></script>
+  <script src="https://kit.fontawesome.com/18fd84116a.js" crossorigin="anonymous"></script>
+  <script>
+    smoothScroll.init({
+      selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
+      selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
+      speed: 2000, // Integer. How fast to complete the scroll in milliseconds
+      easing: 'easeInOutCubic', // Easing pattern to use
+      offset: 98, // Integer. How far to offset the scrolling anchor location in pixels
+      callback: function (anchor, toggle) { } // Function to run after scrolling
+    });
+  </script>
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+    <!-- nav -->
+    <nav id="main_navbar" class="navbar navbar-brand-center navbar-expand-lg navbar-dark bg-black justify-content-sm-start fixed-top">
+      
+      <div class="container_logowhite">
+        <div class="logowhite btn-ocu">
+          <button class="navbar-toggler m-2 align-self-start" type="button">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="button_list">
+            <img src="img/Logo_white.png"></img>
+          </div>
+        </div>
+      </div>
+      <div
+        class="collapse d-flex  navbar-collapse d-flex flex-column flex-lg-row flex-xl-row justify-content-lg-end mobileMenu p-lg-0 mt-5 mt-lg-0"
+        id="navbarSupportedContent">
+        <div class="container_licon">
+        <span class="icon"><img width="26px" height="20.7px" src="img/arro2.png"></span>
+        <img id="logocolor" src="img/Logo_color.png" class=""></img>
+        </div>
+        <div class="container_list">
+        <div class="list">
+        <ul class="navbar-nav position-relative mt-2 mb-2">
+          <div class="container_distritologo">
+          <li class="nav-item active mt-3">
+            <img id="logowhite" src="img/Logo_white.png" class="navbar-brand order-1 order-lg-0 ml-lg-0"></img>
+          </li>
+        </div>
+        <div class="container_options">
+          <li class="nav-item active mt-2 ">
+            <a class="nav-link" data-scroll href="#hotsale">HotSale <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item mt-2">
+            <a class="nav-link oculto" data-scroll href="#juego">Premios</a>
+          </li>
+          <li id="oculto" class="nav-item mt-2">
+            <a class="nav-link" data-scroll href="#tienda">Tiendas</a>
+          </li>
+          <li class="nav-item mt-2">
+            <a class="nav-link" data-scroll href="#footer">Ayuda</a>
+          </li>
+        </div>
+        <div class="container_cuentas">
+          <li>
+            <div class="container_ncuenta">
+              <div class="ntexto">
+                Empieza en
+              </div>
+              <div id="cuenta">
+              </div>
+            </div>
+          </li>
+        </div>
+        </ul>
+      </div>
+      </div>
+        
+      </div>
+    </nav>
+    <div class="container_ncuenta1">
+      <div class="container_center">
+      <div class="ntexto1">
+        Empieza en
+      </div>
+      <div id="cuenta1">
+      </div>
+    </div>
+  </div>
+    <div class="overlay"></div>
+    <!-- nav -->
+  </header>
+  <!-- header -->
+  <main id="hotsale">
+
+    <!-- Ofertas -->
+    <section class="container_backgroundoffer">
+      <div class="container_headsection">
+        <div class="container_first">
+          <img width="262.4px" height="262.4px" src="img/ht.png" alt="hotweeks"></img>
+          <div class="container_subtitle">
+            <h2 class="subtitle">
+              Llega el HotWeek en Distrito Moda!!!
+            </h2>
+            <h2 class="subtitle">
+              11, 12 y 13 de Mayo
+            </h2>
+          </div>
+        </div>
+        <div class="container_second">
+          <img src="img/Promo1.png" class=""></img>
+          <img src="img/Promo2.png" class=""></img>
+          <img src="img/Promo3.png" class=""></img>
+          <img src="img/Promo4.png" class=""></img>
+        </div>
+      </div>
+    </section>
+    <!-- Ofertas -->
+    <!-- juego -->
+    <section id="juego" class="container_game">
+      <div class="container_headsection">
+        <div class="container_centrado">
+          <h3 class="titulo">Gana jugando</h3>
+        </div>
+        <div class="container_gametwo">
+          <div class="container_information">
+            <p class="informations">
+              amet-consectetur-adipiscing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-Ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris-nisi-ut-aliquip-ex-ea-commodo-consequat-Duis-aute-irure-dolor-in
+            </p>
+            <input class="email_information"> </input>
+            <button class="button">GIRAR</button>
+          </div>
+          <div class="container_play">
+            <span class="play"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Icono Juego -->
+    <a class='boton_flotante' data-toggle="modal" data-target="#gameModal"><img src='img/Icon_float.png' /></a>
+
+    <!-- Modal -->
+    <div class="modal fade modal-dialog-center" id="gameModal" tabindex="-1" role="dialog"
+      aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img class="play2" src="img/playsite.jpg" alt=""></img>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nulla saepe quos, illo dignissimos delectus quae tenetur numquam repellendus. Quis modi quidem adipisci quo ullam asperiores aliquid error aperiam unde.
+          </div>
+          <div class="modal-footer">
+
+            <input class="email_information"> </input>
+            <button class="button">GIRAR</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal del Juego en Mobile -->
+    <!-- juego -->
+    <!-- tienda -->
+    <section id="tienda" class="container_backgroundshop">
+      <div class="container_headsection">
+        <div class="container_centrado">
+          <h3 class="titulo">Tiendas Seleccionadas</h3>
+        </div>
+        <div class="container_shop">
+          <div class="shop">
+            <img src="img/oh.png"></img>
+            <p class="text">Cupones de descuento $100 Envío gratis a partir $4.000 Descuento de 10%</p>
+          </div>
+          <div class="shop">
+            <img src="img/dimple.png"></img>
+            <p class="text">Cupones de descuento $100 Envío gratis a partir $4.000 Descuento de 10%</p>
+          </div>
+          <div class="shop">
+            <img src="img/quinoto.png"></img>
+            <p class="text">Cupones de descuento $100 Envío gratis a partir $4.000</p>
+          </div>
+          <div class="shop">
+            <img src="img/hep.png"></img>
+            <p class="text">Cupones de descuento $100 Descuento de 10%</p>
+          </div>
+          <div class="shop">
+            <img src="img/bou.png"></img>
+            <p class="text">Cupones de descuento $100 Envío gratis a partir $4.000 Descuento de 10%</p>
+          </div>
+          <div class="shop">
+            <img src="img/banana.png"></img>
+            <p class="text">Cupones de descuento $100 Envío gratis a partir $4.000 Descuento de 10%</p>
+          </div>
+          <div class="shop">
+            <img src="img/o.png"></img>
+            <p class="text">Cupones de descuento $100 Envío gratis a partir $4.000</p>
+          </div>
+          <div class="shop">
+            <img src="img/viac.png"></img>
+            <p class="text">Cupones de descuento $100 Descuento de 10%</p>
+          </div>
+          <div class="shop">
+            <img src="img/oh.png"></img>
+            <p class="text">Cupones de descuento $100 Envío gratis a partir $4.000 Descuento de 10%</p>
+          </div>
+          <div class="shop">
+            <img src="img/dimple.png"></img>
+            <p class="text">Cupones de descuento $100 Envío gratis a partir $4.000 Descuento de 10%</p>
+          </div>
+          <div class="shop">
+            <img src="img/quinoto.png"></img>
+            <p class="text">Cupones de descuento $100 Envío gratis a partir $4.000</p>
+          </div>
+          <div class="shop">
+            <img src="img/hep.png"></img>
+            <p class="text">Cupones de descuento $100 Descuento de 10%</p>
+          </div>
+          <div class="shop">
+            <img src="img/bou.png"></img>
+            <p class="text">Cupones de descuento $100 Envío gratis a partir $4.000 Descuento de 10%</p>
+          </div>
+          <div class="shop">
+            <img src="img/banana.png"></img>
+            <p class="text">Cupones de descuento $100 Envío gratis a partir $4.000 Descuento de 10%</p>
+          </div>
+          <div class="shop">
+            <img src="img/o.png"></img>
+            <p class="text">Cupones de descuento $100 Envío gratis a partir $4.000</p>
+          </div>
+          <div class="shop">
+            <img src="img/viac.png"></img>
+            <p class="text">Cupones de descuento $100 Descuento de 10%</p>
+          </div>
+          <div class="shop">
+            <img src="img/oh.png"></img>
+            <p class="text">Cupones de descuento $100 Envío gratis a partir $4.000 Descuento de 10%</p>
+          </div>
+          <div class="shop">
+            <img src="img/dimple.png"></img>
+            <p class="text">Cupones de descuento $100 Envío gratis a partir $4.000 Descuento de 10%</p>
+          </div>
+          <div class="shop">
+            <img src="img/quinoto.png"></img>
+            <p class="text">Cupones de descuento $100 Envío gratis a partir $4.000</p>
+          </div>
+          <div class="shop">
+            <img src="img/hep.png"></img>
+            <p class="text">Cupones de descuento $100 Descuento de 10%</p>
+          </div>
+          <div class="shop">
+            <img src="img/bou.png"></img>
+            <p class="text">Cupones de descuento $100 Envío gratis a partir $4.000 Descuento de 10%</p>
+          </div>
+          <div class="shop">
+            <img src="img/banana.png"></img>
+            <p class="text">Cupones de descuento $100 Envío gratis a partir $4.000 Descuento de 10%</p>
+          </div>
+          <div class="shop">
+            <img src="img/o.png"></img>
+            <p class="text">Cupones de descuento $100 Envío gratis a partir $4.000</p>
+          </div>
+          <div class="shop">
+            <img src="img/viac.png"></img>
+            <p class="text">Cupones de descuento $100 Descuento de 10%</p>
+          </div>
+
+        </div>
+        <div class="container_button">
+          <button target="__blank" href="https://www.google.com.ar/?hl=es-419" class="button_link">
+
+            Ver mas tiendas de Distrito Moda
+
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- tienda -->
+  </main>
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="container_backgroundfooter">
+      <div class="container_headsection">
+        <div class="container_footer">
+          <div class="container_socialnetworks">
+            <div class="socialnetworks"><img src="img/facebook.png" alt=""> <a href=""
+                class="socialnetworks-text">Facebook</a></div>
+            <div class="socialnetworks"><img src="img/instagram.png" alt=""> <a href=""
+                class="socialnetworks-text">Instagram</a></div>
+            <div class="socialnetworks"><img src="img/twitter.png" alt=""> <a href=""
+                class="socialnetworks-text">Twitter</a></div>
+            <div class="socialnetworks"><img src="img/whatsapps.png" alt=""> <a href=""
+                class="socialnetworks-text">Whatsapps +54 9 11-4410-XXXX</a></div>
+            <div class="socialnetworks"><img src="img/youtube.png" alt=""> <a href=""
+                class="socialnetworks-text">Youtube</a></div>
+          </div>
+          <div class="container_logo">
+
+            <img class="logof " src="img/Logo_color.png" alt="">
+          </div>
+        </div>
+
+  </footer>
+
+  <!-- Footer -->
+  <script src="js/jquery-3.4.1.js"></script>
+  <!-- Popper.JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+    integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+    crossorigin="anonymous"></script>
+  <!-- jQuery Custom Scroller CDN -->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/simplyCountdown.min.js"></script>
+  <script src="js/countdown.js"></script>
+  <script src="js/navbar.js"></script>
+  <script src="js/index.js"></script>
+  <!-- Menu Toggle Script -->
+
+</body>
+
+</html>

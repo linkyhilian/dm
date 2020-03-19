@@ -1,0 +1,770 @@
+body {
+  padding-top: 103px;
+  max-width: 100%;
+  background-color: #030360;
+  box-sizing: border-box;
+  color: white;
+}
+
+@media(max-width:768px){
+  body{
+    padding-top: 56px;
+  }
+  
+}
+
+@media(min-width:769px){
+  .navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255);
+    font-size:18px ;
+  }
+}
+
+/* Nav */
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0;
+}
+
+.simply-amount{
+  position: relative;
+}
+
+.simply-section div .simply-amount:after{
+  content: ":";
+  color:white;
+  position: absolute;
+  right: -8px;
+  top: 13px;
+  font-size: 14px;
+}
+
+.simply-seconds-section div .simply-amount:after{
+  content:none;
+}
+
+nav{
+  padding: 0;
+  margin: 0;
+}
+.bg-black{
+  background-color: rgba(0,0,0,0.6) ;
+}
+.bg-white{
+  background-color: white ;
+}
+
+img#logosmall.logo_small{
+  width: 116.4px; 
+  height:25px;
+}
+
+nav > div > .container_list{
+  width: 100%;
+}
+
+.navbar{
+  padding:0;
+}
+
+nav > div >.container_licon{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #ff0008;
+    font-weight: bold;
+    border-left:1px solid #ff0008;
+    padding-left: 23px;
+    
+}
+
+#main_navbar > div > ul{
+  width: 100%;
+}
+
+.container_licon{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  
+}
+
+#main_navbar > div.mobileMenu > div.container_licon > span{
+  padding: 12px;
+  font-size: 22px;
+  
+}
+
+#main_navbar > div > div > ul > li > a{
+  padding-left: 20px;
+}
+
+#main_navbar > div.mobileMenu > .icon{
+  position: absolute;
+
+}
+#main_navbar > div > div > img{
+  max-width:120px ;
+  max-height: 24.7px;
+  margin-left: 23.9px;
+  margin-top:8px
+
+}
+
+.mr-auto {
+flex: 1;
+display: flex;
+justify-content: space-around;
+}
+
+@media(min-width:768px) {
+  img#logosmall.logo_small{
+    display:none;
+  }
+  nav > div > .container_licon{
+    display:none
+  }
+  .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+
+    border-left:none;
+    border-bottom: 1px solid #ff0008;
+    padding-left: 0;
+    
+}
+  #main_navbar > div > div > ul > li > a {
+  padding-left:0 ; 
+  }
+
+  #main_navbar > div{
+    display:none;
+  }
+
+  .container_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .list{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 183 ;
+    padding-left: 183 ;
+    margin: 0 auto;
+  }
+
+  .container_distritologo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto;
+  }
+
+  .container_options{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:px;
+    margin: 0px 93px 0 106px;
+    width: 400px;
+  }
+
+  .container_cuentas{
+    display:flex;
+    
+  }
+  
+  
+}
+
+@media(max-width:768px) {
+  a.oculto.nav-link{
+    display: none
+  }
+  .navbar-brand{
+    padding-top:0 auto ;
+    padding-right:0 auto;
+    margin-right: 0;
+    
+  }
+  
+  .navbar-nav,
+  .mr-auto {
+  display: block !important;
+  }
+
+
+  .container_distritologo{
+    display:none
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    color: #010126;
+    padding-left: 24px;
+}
+
+.container_logowhite{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 100%;
+  height: 56px ;
+}
+
+.button_list{
+  display:flex;
+  flex-basis:60%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  
+}
+
+.logowhite{
+  display:flex;
+  align-items: center;
+  justify-content: start;
+  height: 100%;
+  flex-basis: 90%;
+  
+}
+
+
+  
+  
+}
+
+
+
+
+/* Nav */
+/* Cuenta Regresiva */
+
+.container_headnav{
+  width: 55px;
+  height: 55px;
+}
+
+ul{
+  padding-inline-start: 0px;
+}
+
+
+#cuenta{
+  display: flex;
+  justify-content: center;
+}
+.simply-section{
+  font-weight: bold;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.simply-amount{
+  background-color: white;
+  color:#ff0008;
+  width: 48px;
+  height: 48px;
+  display: block;
+  margin-right: 11px;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 5px;
+}
+.simply-word{
+  color:#ffffff;
+  font-weight: bold;
+  display: block;
+  font-size: 12px;
+  margin-left: 12px;
+}
+
+.container_ncuenta{
+  display: flex;
+  flex-direction: column;
+}
+.ntexto{
+  font-size: 14px;
+  color:#ffffff;
+}
+
+.container_ncuenta1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position:fixed;
+  background-color: rgba(0,0,0,0.6) ;
+  width: 100%;
+
+  
+}
+
+.container_center{
+  display: flex;
+  flex-direction: column;
+}
+.ntexto1{
+  font-size: 14px;
+  color:#ffffff;
+  
+}
+
+nav{
+  margin: 0 auto;
+}
+#cuenta1{
+  display: flex; 
+  justify-content: center;
+}
+
+
+/* @media(max-width:768px){
+  .ntexto{
+    display: none;
+  }
+} */
+
+@media(max-width:768px) {
+  #cuenta, .ntexto{
+    display: none
+  }
+}
+@media(min-width:768px) {
+  #cuenta1, .ntexto1, .container_ncuenta1{
+    display: none
+  }
+}
+/* Cuenta Regresiva */
+
+/*seccion Ofertas-------------------------------------------------------------------*/
+.container_backgroundoffer {
+  min-height: 631.5px;
+}
+
+.container_headsection {
+  max-width: 1028px;
+  margin: 0 auto;
+}
+
+.container_first,
+.container_second {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container_first {
+  margin-bottom: 68.9px;
+}
+
+.container_second {
+  margin-bottom: 62.5px;
+}
+
+.container_subtitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  
+}
+
+.subtitle {
+  font-size: 37px;
+  font-weight: bold;
+  line-height: 1.16;
+  letter-spacing: -1.48px;
+  color: #ffffff;
+  margin: 0 34px 0 0;
+
+}
+
+@media(max-width:768px) {
+  .container_first {
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-top:87px;
+    
+  }
+
+  .container_subtitle {
+    align-items: center;
+    max-width: 256px;
+  }
+
+  .subtitle {
+    margin: 0 0 30px 0;
+    text-align: center;
+    font-size: 27px;
+
+  }
+
+  .subtitle:nth-child(2) {
+    max-width: 180px;
+  }
+
+  .container_second {
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0;
+    padding-bottom: 44.6px ;
+  }
+
+  .card_hotweek {
+    margin-bottom: 20px;
+  }
+
+  .card_hotweek:last-child {
+    margin-bottom: 46.6px;
+  }
+
+}
+
+
+/*fin seccion Ofertas-------------------------------------------------------------------*/
+
+/*seccion Juego--------------------------------------------------------------------------*/
+
+.container_backgroundgame{
+  background-color: #ffffff;
+}
+
+.container_game {
+  min-height: 400.5px;
+  padding-bottom: 54px;
+  padding-top: 25.5px;
+  background-color: #ffffff;
+}
+
+.titulo {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.17;
+  color: #030360;
+}
+
+.container_centrado {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 26px;
+}
+
+.container_gametwo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 54px;
+
+}
+
+.container_information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 218px;
+
+
+}
+
+.informations {
+  width: 218px;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.19;
+  color: #000000;
+  margin-bottom: 27px;
+}
+
+.email_information {
+  width: 100%;
+  height: 44px;
+  border-radius: 5px;
+  border: solid 1px #666666;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.container_play {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.play {
+  width: 746px;
+  height: 290px;
+  background-color: #d8d8d8;
+}
+
+.button {
+  height: 44px;
+  background-color: #030360;
+  width: 100%;
+  border-radius: 6px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.17;
+}
+
+.button:active{
+  background-color: #02024b;
+  color: white;
+  text-align: center;
+ 
+}
+
+.boton_flotante {
+  width: 99px;
+  height: 99px;
+  display:scroll;
+  position:fixed;
+  bottom:28%;
+  right:0px;
+  margin-right: 16px;
+
+}
+
+.modal-margin{
+  width: 300px;
+  margin: 0 auto;
+  
+}
+
+@media(max-width:768px) {
+  .container_game {
+    display: none
+    
+  }
+  .play2 {
+    width: 100%;
+    height: 180px;
+  }
+}
+
+@media(min-width:769px) {
+  .boton_flotante {
+    display: none;
+  }
+}
+/* fin seccion Juego--------------------------------------------------------------------------*/
+
+/*seccion Tiendas--------------------------------------------------------------------------*/
+
+.container_backgroundshop {
+  background-color: #fda900;
+  ;
+  min-height: 631.5px;
+  padding-top: 25.5px;
+  padding-bottom: 142px;
+}
+
+.container_shop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.shop {
+  width: 238px;
+  height: 343px;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  margin-bottom: 16px;
+}
+.shop img {
+  width: 100%;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  color: #000000;
+  padding-top: 10px;
+  padding-left: 18px;
+}
+
+.container_button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.button_link {
+  width: 100%;
+  height: 65px;
+  background-color: #fda900;
+  border: solid 3px #ffffff;
+  color: white;
+  border-radius: 5px;
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+.button_link:active {
+  background-color: #ffffff;
+  color: #fda900;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: bold;
+  transition: 0.1;
+}
+
+
+@media(max-width:768px) {
+
+  .container_shop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+  }
+
+  .shop {
+    margin-bottom: 20px;
+    width: 45%;
+    height: 280px;
+
+  }
+
+  .titulo {
+    text-align: center;
+
+  }
+  .text {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: left;
+    color: #000000;
+    padding-top: 11px;
+    padding-left: 11px;
+  }
+  .button_link {
+    width: 94%;
+    height: 44px;
+    background-color: #fda900;
+    border: solid 3px #ffffff;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-bottom: 8px;
+  }
+
+  .button_link:active {
+    background-color: #ffffff;
+    color: #fda900;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.1;
+  }
+  .container_backgroundshop {
+    padding-bottom:61px;
+  }
+  .titulo {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.17;
+    color: #030360;
+  }
+  
+}
+
+/* finseccion Tiendas--------------------------------------------------------------------------*/
+/*seccion footer--------------------------------------------------------------------------*/
+
+.container_backgroundfooter {
+  background-color: #000000;
+
+}
+
+.container_footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container_socialnetworks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+  padding-top:75.2px;
+}
+
+.socialnetworks{
+  font-size: 24px;
+  line-height: 1.17;
+  text-align: left;
+  margin-bottom: 30px ;
+}
+.socialnetworks-text{
+  color: #ffffff;
+  margin-left: 21.7px;
+  
+}
+.container_logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 80px;
+}
+.logof{
+  width:459px;
+  height:96px ;
+}
+@media(max-width:768px) {
+  .logof{
+    width:242.4px;
+    height:60px;
+  }
+  .container_logo{
+  margin: 0 auto;
+  padding-bottom:62px;
+  padding-top: 35.6px;
+  }
+  .container_socialnetworks{
+    margin: 0 auto;
+    padding-top:72.8px;
+  }
+  .socialnetworks-text{
+    color: #ffffff;
+    margin-left: 19px;
+    font-size: 19px;
+  }
+
+}
+
+/*final seccion footer--------------------------------------------------------------------------*/
